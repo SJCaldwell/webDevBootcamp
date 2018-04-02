@@ -29,4 +29,12 @@ TBD
 
 ## Section 3_JS
 
-Section 3 has two 
+Section 3 has two exercises that require you to write JavaScript functions. For exercise1.html, we've written a skeleton of the function with
+
+//Your code here!
+
+Marking where you need to fill in logic. 
+
+exercise2.html requires you to fill out your own function completely.
+
+When done, when you load the HTML into the browser the website will read EXERCISE COMPLETED in big letters if you finished. 
