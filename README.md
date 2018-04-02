@@ -1,7 +1,7 @@
 # webDevBootcamp
 You know that presentation you're looking at, right now? These are the exercises associated with it.
 
-Fork this repository so you can push the answers to the exercises. You will be turning in the finished repo to professor Crow, along with a screenshot of your completed 90s personal website. 
+Fork this repository so you can push the answers to the exercises. You will be turning in the finished repo to Professor Crow, along with a screenshot of your completed 90s personal website. 
 
 ## To serve the pages
 
@@ -9,7 +9,7 @@ Fork this repository so you can push the answers to the exercises. You will be t
 
 If you point your browser directly to http://localhost:8081, it you will see all the different directories listed. 
 
-To server up the first exercise, for example, browser to http://localhost:8080/Section1_HTML/test.html
+To serve up the first exercise, for example, browse to http://localhost:8080/Section1_HTML/test.html
 
 ## Section1_HTML
 
