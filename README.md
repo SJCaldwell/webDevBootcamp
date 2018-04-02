@@ -27,7 +27,7 @@ Advanced Exercises:
 
 TBD
 
-## Section 3_JS
+## Section3_JS
 
 Section 3 has two exercises that require you to write JavaScript functions. For exercise1.html, we've written a skeleton of the function with
 
@@ -38,3 +38,18 @@ Marking where you need to fill in logic.
 exercise2.html requires you to fill out your own function completely.
 
 When done, when you load the HTML into the browser the website will read EXERCISE COMPLETED in big letters if you finished. 
+
+## Section4_PersonalWebsite
+
+As with all labs, it's time to have a putting it-all-together section.
+
+Requirements:
+1. Must have HTML.
+2. Must have custom CSS operating on those elements.
+3. Must use D3 to create 3 or more custom text elements (h1, p, whatever you have)
+
+Beyond that?
+
+Go wild! You learned a lot of stuff today, so just see what you can do. Link to other HTML pages, add custom images.
+
+At the end, screenshot it for Professor Crow and send that screenshot along with the repo link. 
