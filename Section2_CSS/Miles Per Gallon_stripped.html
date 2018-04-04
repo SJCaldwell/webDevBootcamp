@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link href="./Miles Per Gallon_files/selectize.bootstrap3.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="shared/selectize/js/es5-shim.min.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./Miles Per Gallon_files/bootstrap.min.css" rel="stylesheet">
+    <link href="./lab_assignment.css" type="text/css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <h2>Miles Per Gallon</h2>
+      <div class="row">
+        <div class="col-sm-4">
+          <form class="well">
+            <div class="form-group shiny-input-container">
+              <label class="control-label" for="variable">Variable:</label>
+              <select id="variable" class="form-control">
+                <option value="cyl" selected>Cylinders</option>
+                <option value="am">Transmission</option>
+                <option value="gear">Gears</option>
+              </select>
+            </div>
+            <div class="form-group shiny-input-container">
+              <label class="control-label" for="regression-type">Regression Type:</label>
+              <select id="variable" class="form-control">
+                <option value="poisson" selected>Poisson</option>
+                <option value="binomial">Logistic</option>
+                <option value="linear">Linear</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <div class="checkbox">
+                <label>
+                  <input id="outliers" type="checkbox" checked="checked"/>
+                  <span>Show outliers</span>
+                </label>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-sm-8" id="graph-display">
+          <h3>
+            <div id="caption" class="shiny-text-output shiny-bound-output">mpg ~ cyl</div>
+          </h3>
+          <div id="mpgPlot" class="shiny-plot-output shiny-bound-output" style="width: 100% ; height: 400px">
+            <img src="data:image/png;base64,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" width="826" height="400">
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./Miles Per Gallon_files/jquery.min.js"></script>
+    <script src="./Miles Per Gallon_files/bootstrap.min.js"></script>
+  </body>
